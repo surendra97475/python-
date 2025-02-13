@@ -1,0 +1,53 @@
+name="sURENDRA"
+print(name.capitalize());
+name="SURENDRA"
+print(name.lower());
+name="SUrENdRa"
+print(name.swapcase());
+str="SURENDRA"
+print(str.isalpha());
+s1="123"
+print(s1.isdigit());
+s1="123a"
+print(s1.isdigit());
+s2="123a"
+print(s2.isalnum());
+s3="sure"
+print(s3.islower());
+s3="surAe"
+print(s3.islower());
+S3="SURE"
+print(S3.isupper());
+S3="SUREr"
+print(S3.isupper());
+s4="   "
+print(s4.isspace());
+s4="the animal"
+print(s4.title());
+s4="my name is bhai "
+s5="The animal"
+s6="hello world"
+s7="the animal the"
+s8="hello world"
+s9="  hello  "
+s10="42"
+
+
+print(s4.isspace())
+print(s5.istitle())
+print(s6.index("world"))
+print(s7.replace("the","is"))
+print(s8.count("l"))
+print(s9.rstrip())
+print(s10.zfill(6))
+
+
+
+
+
+
+
+
+
+
+
